@@ -155,29 +155,29 @@ Highlights
 
 #highlights:before,
 #highlights:after {
-    background: url('images/wave.svg');
+    background: url('../assets/wave.svg');
     content: "";
     position: absolute;
-    width: 101vh;
+    width: 101vw;
     height: 12vw;
     left: 0;
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: translateY(-100%);
-}
+    }
 
 #highlights:before {
     top: 1px;
+    transform: translateY(-100%);
 }
 
 #highlight:after {
     bottom: 1px;
+    transform: translateY(100%);
 }
 
 .highlight__wrapper {
     display: flex;
-    z-index: 2;
 }
 
 .highlight {
@@ -210,4 +210,15 @@ Highlights
 .highlight__subtitle {
     font-size: 20px;
     margin: 16px;
+}
+
+/* 
+
+Features 
+
+*/
+
+#features {
+    height: 1000px;
+    background-color: ;
 }
